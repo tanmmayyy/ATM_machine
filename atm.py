@@ -4,6 +4,7 @@ conn = sql.connect("atm_machine.db")
 # conn = sql.connect(host='localhost', user='sqluser', password='password', database='ATM_MACHINE')
 c1 = conn.cursor()
 
+
 print("================================================================================")
 print(" WELCOME TO OUR ATM ")
 print("================================================================================")
